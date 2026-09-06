@@ -1,0 +1,12 @@
+name: "🎨 Feature Request / Math Suggestion"
+description: Propose a new 3D shape, math formula, or tool idea.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your Idea / Equation
+      description: Describe the mathematical formula, polytope, or tool feature you would love to see!
+    validations:
+      required: true
